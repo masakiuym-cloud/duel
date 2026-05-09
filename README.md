@@ -1,2 +1,4 @@
-rm
-git rm 
+
+## memo
+- rm
+- git rm 
