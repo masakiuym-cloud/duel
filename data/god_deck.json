@@ -1,0 +1,153 @@
+[
+  {
+    "name": "神・ゼン",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 6,
+    "power": 5000,
+    "breaker": 2,
+    "blocker": true,
+    "effects": ["god_link_untap_draw"],
+    "god_link_name": "zen_lahar",
+    "god_link_side": "left",
+    "race": "God",
+    "count": 2
+  },
+  {
+    "name": "神・ラ・ハール",
+    "type": "creature",
+    "civilization": "Fire",
+    "cost": 7,
+    "power": 7000,
+    "breaker": 2,
+    "effects": ["god_when_attack_burn"],
+    "god_link_name": "zen_lahar",
+    "god_link_side": "right",
+    "race": "God",
+    "count": 2
+  },
+  {
+    "name": "神・グレート・アクア",
+    "type": "creature",
+    "civilization": "Water",
+    "cost": 6,
+    "power": 6000,
+    "breaker": 2,
+    "blocker": true,
+    "trigger": true,
+    "effects": ["when_enter_draw_1"],
+    "god_link_name": "aqua_gaill",
+    "god_link_side": "left",
+    "race": "God",
+    "count": 2
+  },
+  {
+    "name": "神・ガイル",
+    "type": "creature",
+    "civilization": "Nature",
+    "cost": 8,
+    "power": 8000,
+    "breaker": 2,
+    "effects": ["mana_add_2"],
+    "god_link_name": "aqua_gaill",
+    "god_link_side": "right",
+    "race": "God",
+    "count": 2
+  },
+  {
+    "name": "神聖騎士アルカ",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 2,
+    "power": 2000,
+    "blocker": true,
+    "count": 4
+  },
+  {
+    "name": "神域の守護者",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 3,
+    "power": 3000,
+    "blocker": true,
+    "count": 4
+  },
+  {
+    "name": "聖光の使者",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 4,
+    "power": 4000,
+    "blocker": true,
+    "effects": ["when_enter_draw_1"],
+    "count": 2
+  },
+  {
+    "name": "神焔の斥候",
+    "type": "creature",
+    "civilization": "Fire",
+    "cost": 2,
+    "power": 2000,
+    "count": 4
+  },
+  {
+    "name": "炎の神官",
+    "type": "creature",
+    "civilization": "Fire",
+    "cost": 3,
+    "power": 3000,
+    "count": 4
+  },
+  {
+    "name": "神聖なる閃光",
+    "type": "spell",
+    "civilization": "Light",
+    "cost": 4,
+    "effects": ["destroy_opponent_creature"],
+    "count": 2
+  },
+  {
+    "name": "神域の見張り",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 3,
+    "power": 2500,
+    "blocker": true,
+    "count": 2
+  },
+  {
+    "name": "神焔の爆発",
+    "type": "spell",
+    "civilization": "Fire",
+    "cost": 3,
+    "trigger": true,
+    "effects": ["destroy_creature_power_lte_3000"],
+    "count": 4
+  },
+  {
+    "name": "ヘブンズ・ゲート",
+    "type": "spell",
+    "civilization": "Light",
+    "cost": 6,
+    "trigger": true,
+    "effects": ["summon_blocker_from_hand"],
+    "count": 2
+  },
+  {
+    "name": "神の声",
+    "type": "spell",
+    "civilization": "Light",
+    "cost": 5,
+    "trigger": true,
+    "effects": ["draw_2"],
+    "count": 2
+  },
+  {
+    "name": "炎神の怒り",
+    "type": "spell",
+    "civilization": "Fire",
+    "cost": 6,
+    "effects": ["destroy_all_opponent_creatures"],
+    "count": 2
+  }
+]

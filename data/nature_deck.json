@@ -1,0 +1,89 @@
+[
+  {
+    "name": "フェアリー・ライフ",
+    "type": "spell", "civilization": "Nature",
+    "cost": 2, "count": 4,
+    "trigger": true,
+    "effects": ["mana_add_2"]
+  },
+  {
+    "name": "ピクシー・ライフ",
+    "type": "spell", "civilization": "Nature",
+    "cost": 2, "count": 4,
+    "effects": ["mana_add_2"]
+  },
+  {
+    "name": "青銅の鎧",
+    "type": "creature", "civilization": "Nature",
+    "cost": 3, "power": 3000, "breaker": 1, "count": 4,
+    "effects": []
+  },
+  {
+    "name": "ナチュラル・トラップ",
+    "type": "spell", "civilization": "Nature",
+    "cost": 5, "count": 4,
+    "trigger": true,
+    "effects": ["destroy_opponent_creature"]
+  },
+  {
+    "name": "巨大設計図",
+    "type": "spell", "civilization": "Nature",
+    "cost": 5, "count": 4,
+    "effects": ["draw_3"]
+  },
+  {
+    "name": "森の守護者",
+    "type": "creature", "civilization": "Nature",
+    "cost": 4, "power": 4000, "breaker": 1, "count": 4,
+    "effects": []
+  },
+  {
+    "name": "大勇者「ふたつ牙」",
+    "type": "creature", "civilization": "Nature",
+    "cost": 5, "power": 5000, "breaker": 1, "count": 2,
+    "effects": []
+  },
+  {
+    "name": "母なる大地",
+    "type": "spell", "civilization": "Nature",
+    "cost": 5, "count": 2,
+    "effects": ["mana_creature_to_play"]
+  },
+  {
+    "name": "ガイアクラッシュ・クロウラー",
+    "type": "creature", "civilization": "Nature",
+    "cost": 6, "power": 6000, "breaker": 2, "count": 2,
+    "effects": []
+  },
+  {
+    "name": "大地竜機シロガシラ・ジュカイ",
+    "type": "creature", "civilization": "Nature",
+    "cost": 7, "power": 7000, "breaker": 2, "count": 2,
+    "effects": []
+  },
+  {
+    "name": "母なる星域",
+    "type": "spell", "civilization": "Nature",
+    "cost": 4, "count": 2,
+    "effects": ["mana_add_2"]
+  },
+  {
+    "name": "大地の怒竜ゲンメイ",
+    "type": "creature", "civilization": "Nature",
+    "civilizations": ["Fire", "Nature"],
+    "cost": 6, "power": 6000, "breaker": 1, "count": 2,
+    "effects": ["when_enter_draw_1"]
+  },
+  {
+    "name": "ボルバルザーク",
+    "type": "creature", "civilization": "Nature",
+    "cost": 8, "power": 8000, "breaker": 2, "count": 2,
+    "effects": []
+  },
+  {
+    "name": "原始の巨人",
+    "type": "creature", "civilization": "Nature",
+    "cost": 9, "power": 10000, "breaker": 2, "count": 2,
+    "effects": []
+  }
+]

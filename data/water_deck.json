@@ -1,0 +1,86 @@
+[
+  {
+    "name": "エナジー・ライト",
+    "type": "spell", "civilization": "Water",
+    "cost": 3, "count": 4,
+    "effects": ["draw_3"]
+  },
+  {
+    "name": "ストリーミング・チューター",
+    "type": "spell", "civilization": "Water",
+    "cost": 3, "count": 2,
+    "effects": ["draw_2"]
+  },
+  {
+    "name": "パクリオ",
+    "type": "creature", "civilization": "Water",
+    "cost": 3, "power": 1000, "breaker": 1,
+    "trigger": true, "count": 4,
+    "effects": ["when_enter_discard_1"]
+  },
+  {
+    "name": "斬隠オロチ",
+    "type": "creature", "civilization": "Water",
+    "cost": 3, "power": 3000, "breaker": 1,
+    "blocker": true, "count": 2,
+    "effects": []
+  },
+  {
+    "name": "クリスタル・メモリー",
+    "type": "spell", "civilization": "Water",
+    "cost": 4, "count": 2,
+    "effects": ["draw_2"]
+  },
+  {
+    "name": "バウンス呪文ST",
+    "type": "spell", "civilization": "Water",
+    "cost": 4, "count": 4,
+    "trigger": true,
+    "effects": ["bounce_opponent_creature"]
+  },
+  {
+    "name": "アクア・ハルカス",
+    "type": "creature", "civilization": "Water",
+    "cost": 4, "power": 2000, "breaker": 1,
+    "blocker": true, "trigger": true, "count": 4,
+    "effects": ["when_enter_draw_1"]
+  },
+  {
+    "name": "サイバー・ブレイン",
+    "type": "spell", "civilization": "Water",
+    "cost": 5, "count": 4,
+    "trigger": true,
+    "effects": ["draw_3"]
+  },
+  {
+    "name": "アクア・サーファー",
+    "type": "creature", "civilization": "Water",
+    "cost": 5, "power": 2000, "breaker": 1,
+    "trigger": true, "count": 4,
+    "effects": ["when_enter_bounce"]
+  },
+  {
+    "name": "クリスタル・ランサー",
+    "type": "creature", "civilization": "Water",
+    "cost": 5, "power": 5000, "breaker": 1, "count": 2,
+    "effects": []
+  },
+  {
+    "name": "深海の伝道師アトランティス",
+    "type": "creature", "civilization": "Water",
+    "cost": 7, "power": 6000, "breaker": 2, "count": 2,
+    "effects": ["when_enter_draw_1"]
+  },
+  {
+    "name": "蒼狼の始祖アマテラス",
+    "type": "creature", "civilization": "Water",
+    "cost": 7, "power": 7000, "breaker": 2, "count": 2,
+    "effects": []
+  },
+  {
+    "name": "水の霊騎士",
+    "type": "creature", "civilization": "Water",
+    "cost": 4, "power": 3000, "breaker": 1, "count": 4,
+    "effects": []
+  }
+]

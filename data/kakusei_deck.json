@@ -1,0 +1,125 @@
+[
+  {
+    "name": "覚醒龍アウラ",
+    "type": "creature",
+    "civilization": "Water",
+    "cost": 9,
+    "power": 9000,
+    "breaker": 3,
+    "race": "Awakened",
+    "count": 2
+  },
+  {
+    "name": "覚醒聖霊アルファ",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 8,
+    "power": 8000,
+    "breaker": 2,
+    "blocker": true,
+    "race": "Awakened",
+    "count": 2
+  },
+  {
+    "name": "覚醒海神ネプチューン",
+    "type": "creature",
+    "civilization": "Water",
+    "cost": 9,
+    "power": 9000,
+    "breaker": 2,
+    "race": "Awakened",
+    "count": 2
+  },
+  {
+    "name": "覚醒光神フェニックス",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 9,
+    "power": 9500,
+    "breaker": 2,
+    "effects": ["cant_be_blocked"],
+    "race": "Awakened",
+    "count": 2
+  },
+  {
+    "name": "光の盾兵",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 2,
+    "power": 2000,
+    "blocker": true,
+    "count": 4
+  },
+  {
+    "name": "覚醒の守護者",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 3,
+    "power": 3000,
+    "blocker": true,
+    "count": 4
+  },
+  {
+    "name": "覚醒の僕",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 4,
+    "power": 4000,
+    "blocker": true,
+    "effects": ["when_enter_draw_1"],
+    "count": 2
+  },
+  {
+    "name": "水の斥候",
+    "type": "creature",
+    "civilization": "Water",
+    "cost": 2,
+    "power": 2000,
+    "effects": ["when_enter_draw_1"],
+    "count": 4
+  },
+  {
+    "name": "水の探索者",
+    "type": "creature",
+    "civilization": "Water",
+    "cost": 3,
+    "power": 3000,
+    "effects": ["when_enter_draw_1"],
+    "count": 4
+  },
+  {
+    "name": "覚醒の導き手",
+    "type": "creature",
+    "civilization": "Water",
+    "cost": 4,
+    "power": 4000,
+    "effects": ["when_enter_bounce"],
+    "count": 3
+  },
+  {
+    "name": "覚醒の儀式",
+    "type": "spell",
+    "civilization": "Light",
+    "cost": 4,
+    "effects": ["awaken_from_hand"],
+    "count": 4
+  },
+  {
+    "name": "大覚醒の祈り",
+    "type": "spell",
+    "civilization": "Light",
+    "cost": 5,
+    "trigger": true,
+    "effects": ["awaken_from_hand"],
+    "count": 3
+  },
+  {
+    "name": "覚醒召喚陣",
+    "type": "spell",
+    "civilization": "Water",
+    "cost": 3,
+    "trigger": true,
+    "effects": ["draw_2"],
+    "count": 4
+  }
+]

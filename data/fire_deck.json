@@ -1,0 +1,91 @@
+[
+  {
+    "name": "ブレイズ・クロー",
+    "type": "creature", "civilization": "Fire",
+    "cost": 1, "power": 1000, "breaker": 1, "count": 4,
+    "effects": []
+  },
+  {
+    "name": "コッコ・ルピア",
+    "type": "creature", "civilization": "Fire",
+    "cost": 2, "power": 1000, "breaker": 1, "count": 4,
+    "effects": ["dragon_cost_reduce"]
+  },
+  {
+    "name": "凶戦士ブレイズ・クロー",
+    "type": "creature", "civilization": "Fire",
+    "cost": 2, "power": 2000, "breaker": 1, "count": 4,
+    "effects": []
+  },
+  {
+    "name": "炎の剣士",
+    "type": "creature", "civilization": "Fire",
+    "cost": 3, "power": 3000, "breaker": 1, "count": 4,
+    "effects": []
+  },
+  {
+    "name": "火炎流星弾",
+    "type": "spell", "civilization": "Fire",
+    "cost": 3, "count": 4,
+    "trigger": false,
+    "effects": ["destroy_creature_power_lte_3000"]
+  },
+  {
+    "name": "ボルシャック・ドラゴン",
+    "type": "creature", "civilization": "Fire",
+    "cost": 6, "power": 6000, "breaker": 2, "count": 4,
+    "race": "Dragon",
+    "effects": ["power_scale_fire_graveyard"]
+  },
+  {
+    "name": "地獄スクラッパー",
+    "type": "spell", "civilization": "Fire",
+    "cost": 5, "count": 4,
+    "trigger": true,
+    "effects": ["destroy_all_creatures_power_lte_3000"]
+  },
+  {
+    "name": "超竜バジュラ",
+    "type": "creature", "civilization": "Fire",
+    "cost": 7, "power": 11000, "breaker": 2, "count": 2,
+    "race": "Dragon",
+    "effects": []
+  },
+  {
+    "name": "ボルシャック・クロス・NEX",
+    "type": "evolution", "civilization": "Fire",
+    "cost": 7, "power": 7000, "breaker": 2, "count": 2,
+    "race": "Dragon",
+    "evolution_target": "Fire",
+    "effects": []
+  },
+  {
+    "name": "ボルメテウス・ホワイト・ドラゴン",
+    "type": "creature", "civilization": "Fire",
+    "cost": 8, "power": 8000, "breaker": 3, "count": 2,
+    "race": "Dragon",
+    "effects": ["cant_be_blocked", "shield_burn"]
+  },
+  {
+    "name": "ボルグレス・バーズ",
+    "type": "evolution", "civilization": "Fire",
+    "civilizations": ["Fire", "Nature"],
+    "cost": 7, "power": 9000, "breaker": 2, "count": 2,
+    "race": "Dragon",
+    "evolution_target": "Fire",
+    "effects": []
+  },
+  {
+    "name": "スーパー炎獄スクラッパー",
+    "type": "spell", "civilization": "Fire",
+    "cost": 8, "count": 2,
+    "effects": ["destroy_all_opponent_creatures"]
+  },
+  {
+    "name": "メガ・マナロック・ドラゴン",
+    "type": "creature", "civilization": "Fire",
+    "cost": 9, "power": 10000, "breaker": 2, "count": 2,
+    "race": "Dragon",
+    "effects": []
+  }
+]

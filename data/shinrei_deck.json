@@ -1,0 +1,125 @@
+[
+  {
+    "name": "神帝スヴァ",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 5,
+    "power": 5000,
+    "breaker": 2,
+    "blocker": true,
+    "effects": ["when_enter_draw_1"],
+    "count": 2
+  },
+  {
+    "name": "神帝ムル",
+    "type": "creature",
+    "civilization": "Water",
+    "cost": 6,
+    "power": 5500,
+    "breaker": 2,
+    "trigger": true,
+    "effects": ["draw_2"],
+    "count": 2
+  },
+  {
+    "name": "神帝エムラ",
+    "type": "creature",
+    "civilization": "Nature",
+    "cost": 6,
+    "power": 6000,
+    "breaker": 2,
+    "effects": ["mana_add_2"],
+    "count": 2
+  },
+  {
+    "name": "神帝ガリス",
+    "type": "creature",
+    "civilization": "Dark",
+    "cost": 7,
+    "power": 6500,
+    "breaker": 2,
+    "effects": ["hand_destruction_all"],
+    "count": 2
+  },
+  {
+    "name": "神帝アージュ",
+    "type": "creature",
+    "civilization": "Fire",
+    "cost": 7,
+    "power": 7000,
+    "breaker": 2,
+    "effects": ["destroy_all_opponent_creatures"],
+    "count": 2
+  },
+  {
+    "name": "神域の門番",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 2,
+    "power": 2000,
+    "blocker": true,
+    "count": 4
+  },
+  {
+    "name": "神水の探索者",
+    "type": "creature",
+    "civilization": "Water",
+    "cost": 3,
+    "power": 3000,
+    "effects": ["when_enter_draw_1"],
+    "count": 4
+  },
+  {
+    "name": "冥府の使者",
+    "type": "creature",
+    "civilization": "Dark",
+    "cost": 3,
+    "power": 2000,
+    "effects": ["when_enter_discard_1"],
+    "count": 4
+  },
+  {
+    "name": "大地の神官",
+    "type": "creature",
+    "civilization": "Nature",
+    "cost": 3,
+    "power": 3000,
+    "effects": ["mana_add_2"],
+    "count": 4
+  },
+  {
+    "name": "神帝の召喚陣",
+    "type": "spell",
+    "civilization": "Light",
+    "cost": 4,
+    "trigger": true,
+    "effects": ["draw_2"],
+    "count": 4
+  },
+  {
+    "name": "神帝の裁き",
+    "type": "spell",
+    "civilization": "Light",
+    "cost": 5,
+    "trigger": true,
+    "effects": ["destroy_opponent_creature"],
+    "count": 4
+  },
+  {
+    "name": "神帝の咆哮",
+    "type": "spell",
+    "civilization": "Fire",
+    "cost": 5,
+    "effects": ["destroy_all_creatures_power_lte_3000"],
+    "count": 4
+  },
+  {
+    "name": "神帝の意志",
+    "type": "spell",
+    "civilization": "Water",
+    "cost": 6,
+    "trigger": true,
+    "effects": ["draw_3"],
+    "count": 2
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "name": "神核アトム・閃光",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 6,
+    "power": 6000,
+    "breaker": 2,
+    "blocker": true,
+    "effects": ["when_enter_draw_1"],
+    "god_link_name": "atom_sol",
+    "god_link_side": "left",
+    "race": "God",
+    "count": 2
+  },
+  {
+    "name": "神核アトム・滅影",
+    "type": "creature",
+    "civilization": "Dark",
+    "cost": 7,
+    "power": 7500,
+    "breaker": 2,
+    "effects": ["when_enter_discard_1", "god_atom_link_bounce"],
+    "god_link_name": "atom_sol",
+    "god_link_side": "right",
+    "race": "God",
+    "count": 2
+  },
+  {
+    "name": "光核の守護者",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 2,
+    "power": 2000,
+    "blocker": true,
+    "count": 4
+  },
+  {
+    "name": "核光の騎士",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 3,
+    "power": 3000,
+    "blocker": true,
+    "count": 4
+  },
+  {
+    "name": "聖核の使者",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 4,
+    "power": 4000,
+    "blocker": true,
+    "effects": ["when_enter_draw_1"],
+    "count": 3
+  },
+  {
+    "name": "核心の天使",
+    "type": "creature",
+    "civilization": "Light",
+    "cost": 5,
+    "power": 5000,
+    "blocker": true,
+    "count": 2
+  },
+  {
+    "name": "核闇の尖兵",
+    "type": "creature",
+    "civilization": "Dark",
+    "cost": 2,
+    "power": 2000,
+    "effects": ["when_enter_discard_1"],
+    "count": 4
+  },
+  {
+    "name": "滅影の追従者",
+    "type": "creature",
+    "civilization": "Dark",
+    "cost": 3,
+    "power": 3000,
+    "count": 4
+  },
+  {
+    "name": "核心の魔導士",
+    "type": "creature",
+    "civilization": "Dark",
+    "cost": 4,
+    "power": 4000,
+    "effects": ["when_enter_discard_1"],
+    "count": 2
+  },
+  {
+    "name": "核光の裁き",
+    "type": "spell",
+    "civilization": "Light",
+    "cost": 4,
+    "effects": ["destroy_opponent_creature"],
+    "count": 2
+  },
+  {
+    "name": "核滅の波動",
+    "type": "spell",
+    "civilization": "Dark",
+    "cost": 5,
+    "trigger": true,
+    "effects": ["hand_destruction_1"],
+    "count": 4
+  },
+  {
+    "name": "聖核の光輝",
+    "type": "spell",
+    "civilization": "Light",
+    "cost": 5,
+    "trigger": true,
+    "effects": ["draw_2"],
+    "count": 2
+  },
+  {
+    "name": "ロスト・ソウル",
+    "type": "spell",
+    "civilization": "Dark",
+    "cost": 7,
+    "effects": ["hand_destruction_all"],
+    "count": 2
+  },
+  {
+    "name": "ヘブンズ・ゲート",
+    "type": "spell",
+    "civilization": "Light",
+    "cost": 6,
+    "trigger": true,
+    "effects": ["summon_blocker_from_hand"],
+    "count": 1
+  },
+  {
+    "name": "核滅の嵐",
+    "type": "spell",
+    "civilization": "Dark",
+    "cost": 6,
+    "effects": ["destroy_all_opponent_creatures"],
+    "count": 2
+  }
+]

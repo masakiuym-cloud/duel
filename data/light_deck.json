@@ -1,0 +1,100 @@
+[
+  {
+    "name": "聖騎士ヴォイジャー",
+    "type": "creature", "civilization": "Light",
+    "cost": 2, "power": 2000, "breaker": 1,
+    "blocker": true, "count": 4,
+    "effects": []
+  },
+  {
+    "name": "光の守護者",
+    "type": "creature", "civilization": "Light",
+    "cost": 2, "power": 1500, "breaker": 1,
+    "blocker": true, "count": 2,
+    "effects": []
+  },
+  {
+    "name": "エンペラー・アクア",
+    "type": "creature", "civilization": "Light",
+    "civilizations": ["Light", "Water"],
+    "cost": 7, "power": 7000, "breaker": 2,
+    "blocker": true, "count": 2,
+    "effects": ["when_enter_draw_1"]
+  },
+  {
+    "name": "雷鳴の守護者ミスト・リエス",
+    "type": "creature", "civilization": "Light",
+    "cost": 3, "power": 3500, "breaker": 1,
+    "blocker": true, "count": 4,
+    "effects": ["when_enter_draw_1"]
+  },
+  {
+    "name": "白騎士の精霊",
+    "type": "creature", "civilization": "Light",
+    "cost": 3, "power": 3000, "breaker": 1,
+    "blocker": true, "count": 4,
+    "effects": []
+  },
+  {
+    "name": "光器ペトローバ",
+    "type": "creature", "civilization": "Light",
+    "cost": 4, "power": 3000, "breaker": 1,
+    "blocker": true, "count": 4,
+    "effects": ["power_plus_2000_own"]
+  },
+  {
+    "name": "ヘブンズ・ゲート",
+    "type": "spell", "civilization": "Light",
+    "cost": 6, "count": 4,
+    "trigger": true,
+    "effects": ["summon_blocker_from_hand"]
+  },
+  {
+    "name": "聖天使クラウゼ・バルキューラ",
+    "type": "creature", "civilization": "Light",
+    "cost": 6, "power": 6500, "breaker": 2,
+    "blocker": true, "count": 2,
+    "effects": []
+  },
+  {
+    "name": "アポカリプス・デイ",
+    "type": "spell", "civilization": "Light",
+    "cost": 7, "count": 2,
+    "trigger": true,
+    "effects": ["destroy_all_non_light"]
+  },
+  {
+    "name": "光牙忍ハヤブサマル",
+    "type": "creature", "civilization": "Light",
+    "cost": 4, "power": 4000, "breaker": 1,
+    "blocker": true, "trigger": true, "count": 2,
+    "effects": []
+  },
+  {
+    "name": "不滅の精霊パーフェクト・ギャラクシー",
+    "type": "creature", "civilization": "Light",
+    "cost": 7, "power": 9000, "breaker": 2,
+    "blocker": true, "count": 2,
+    "effects": []
+  },
+  {
+    "name": "セイント・キャッスル",
+    "type": "spell", "civilization": "Light",
+    "cost": 5, "count": 2,
+    "effects": ["draw_2"]
+  },
+  {
+    "name": "光神龍スペル・デル・フィン",
+    "type": "creature", "civilization": "Light",
+    "cost": 9, "power": 12500, "breaker": 3,
+    "blocker": true, "count": 2,
+    "effects": []
+  },
+  {
+    "name": "天使の騎士",
+    "type": "creature", "civilization": "Light",
+    "cost": 5, "power": 5000, "breaker": 1,
+    "blocker": true, "count": 4,
+    "effects": []
+  }
+]
